@@ -46,6 +46,15 @@ public class CityList {
     }
 
     /**
+     * This returns the number of cities contained in the list
+     * @return
+     *      This is an integer representing how many cities are present in the list
+     */
+    public int countCities() {
+        return cities.size();
+    }
+
+    /**
      * This returns the sorted list of all cities as a List object
      * @return
      *      A list of all the cities, alphabetically sorted by name
