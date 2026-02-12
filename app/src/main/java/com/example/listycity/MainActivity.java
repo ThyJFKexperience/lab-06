@@ -8,6 +8,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+/**
+ * This is the class that represents that main activity that Android Studio uses to create
+ * a visual on screen representation and interact with the UI
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
